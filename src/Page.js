@@ -15,11 +15,11 @@ function Homepage(){
     return (
         <div>
             <h4>Title</h4>
-            {/* <h1>{title}</h1> */}
+            <h1>{title}</h1>
             <h4>Image</h4>
-            {/* <img src={image}/> */}
+            <img src={image}/>
             <h4>Features</h4>
-            {/* {features.map((element) => <p>{element}</p>)} */}
+            {features.map((element) => <p>{element}</p>)}
         </div>
     )
 }
